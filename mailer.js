@@ -29,7 +29,7 @@ const mail = {
                     to: value.email,
                     subject:"reset your password",
                     html: `
-                    <p>click the <a href="http://localhost:3000/resetMail/${emailToken}">link</a> to reset password</p>
+                    <p>click the <a href="https://fila-ecommerce-website.netlify.app/resetMail/${emailToken}">link</a> to reset password</p>
                     <p> valid for 24 hrs only </p>
                     `
                 };
@@ -73,7 +73,7 @@ const mail = {
                    to:value.email,
                    subject : "verify your mail",
                    html : `
-                   <p>click the <a href="http://localhost:3000/verify/${emailToken}">link</a> to verify account</p>
+                   <p>click the <a href="https://fila-ecommerce-website.netlify.app/verify/${emailToken}">link</a> to verify account</p>
                    <p>valid for 24 hrs only</p>
                    `
     
